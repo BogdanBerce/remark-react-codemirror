@@ -1,8 +1,10 @@
 {
-  "name": "remark-react-codemirror",
-  "version": "1.0.5",
+  "name": "@otterly/remark-react-codemirror",
+  "version": "1.0.5-patched1",
   "description": "Syntax highlighting for remark-react through CodeMirror",
   "main": "lib/index.js",
+  "types": "index.d.ts",
+  "typings": "index.d.ts",
   "scripts": {
     "build": "babel src -d lib",
     "watch": "babel src --watch -d lib",
