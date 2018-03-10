@@ -12,7 +12,7 @@ export default function (CodeMirror, opts = {}) {
 
     render () {
       const { className, children } = this.props
-      const language = className.split('-')[1] || ''
+      const language = (className || '').split('-')[1] || ''
       const value = children[0] || ''
       const props = { value, inline: true, language, theme: opts.theme, codeMirror: CodeMirror }
 
